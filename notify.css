@@ -1,0 +1,342 @@
+/* 
+    green: #2ecc71; 
+    */
+body{
+	background: #ffffff;
+	font: 13px/1.1em Arial, "Helvetica Neue", Helvetica, sans-serif;
+	width: 1600px;
+}
+.thelineup{
+	background: #2ecc71;
+	height: 10px;
+}
+/*============
+        Header
+==============*/
+header{
+	overflow: hidden;
+	background-image: url(background.jpg);
+}
+  header .thewholeinside{
+  		padding: 166px 0px 176px 323px;
+  		overflow: hidden;
+  }
+    header .Notify_{
+        font-size: 60px;
+        
+        color: rgb( 255, 255, 255 );
+        line-height: 0.333;
+        text-align: left;
+        left: 318.937px;
+        top: 189.708px;
+        z-index: 175;
+    }
+    header .point{
+    	border-radius: 100;
+    	color: #2ecc71;
+    }
+    header .psd{
+        font-size: 24px;
+        
+        color: rgb( 255, 255, 255 );
+        line-height: 1.5;
+        text-align: left;
+        margin-top: 38px;
+        left: 327.844px;
+        top: 328.96px;
+        width: 453px;
+        height: 59px;
+        z-index: 174;
+    }
+    .icons{
+    	margin-top: 25px;
+        overflow: hidden;
+    }
+    .icons li{
+    	float: left;
+    	margin-right: 16px;
+    }
+	    .icons .disc-outerr{
+	    	background: #35231a;
+	    	width: 54px;
+	    	height: 54px;
+	    	border-radius: 100%;
+	    	padding: 2px 0px 2px 5px;
+	    }	
+	    	.icons .disc-outerr .iconfirst{
+	    		background-position: center;
+	    		border-radius: 100%;
+	    		background-repeat: no-repeat;
+	    		margin: 14px;
+	    		width: 21px;
+	    		height: 25px;
+	    	}
+	    	.icons .disc-outerr .iconsecond{
+	    		background-position: center;
+	    		border-radius: 100%;
+	    		background-repeat: no-repeat;
+	    		margin: 14px;
+	    		width: 23px;
+	    		height: 27px;
+	    	}
+	    	.icons .disc-outerr .iconthird{
+	    		background-position: center;
+	    		border-radius: 100%;
+	    		background-repeat: no-repeat;
+	    		margin: 7px 5px 5px 4px;
+	    		width: 40px;
+	    		height: 40px;
+	    	}
+	    	.icons .apple{
+	    		background-image: url(applemain.jpg);
+	    	}
+	    	.icons .android{
+	    		background-image: url(androidmain.jpg);	
+	    	}
+	    	.icons .windows{
+	    		background-image: url(windowsmain.jpg);
+	    	}
+	    	/*===========
+	    	        hover
+	    	=============*/
+	    	.icons .disc-outerr:hover{
+	    		background-color: #2ecc71;
+	    	}
+	    	.icons .apple:hover{
+	    		background-image: url(applehover.jpg);
+	    	}
+	    	.icons .android:hover{
+	    		background-image: url(androidhover.jpg);
+	    	}
+	    	.icons .windows:hover{
+	    		background-image: url(windowshover.jpg);
+
+	    	}
+/*============
+		Header
+==============*/
+
+/*==============
+		Services
+================*/
+.services{
+	padding: 60px 100px;
+	overflow: hidden;
+	background: #ffffff;
+}
+	.services li{
+		margin-right: 117px;
+		float: left;
+		text-align: center;
+	}
+	.services li:last-child{
+		margin-right: 0px;
+	}
+	.services .disc-outer{
+		background: #2ecc71;
+		width: 98px;
+		height: 98px;
+		border-radius: 100%;
+		margin-bottom: 31px;
+		margin-left: 109px;
+	}
+	.services .icon{
+		background-repeat: no-repeat;
+		background-position: center center;
+		border-radius: 100%;
+		width: 43px;
+		height: 43px;
+		margin-right: 333px;
+		padding: 29px 25px 30px 28px;
+	}
+	.services .theme{
+		background-image: url(again_03.jpg);
+	}
+	.services .design{
+		background-image: url(star_03.png);
+	}
+	.services .audience{
+		background-image: url(notify_psd_theme_13.jpg);
+	}
+	.services li h3{
+		font-size: 22px;
+		
+		color: rgb( 34, 34, 34 );
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 27px;
+		
+	}
+	.services li h5{
+		font-size: 16px;
+	    
+	    color: rgb( 132, 132, 132 );
+	    line-height: 1.625;
+	    text-align: center;
+	    width: 313px;
+    	height: 41px;
+    	margin-bottom: 59px;
+	}
+
+.third{
+	background-color: rgb( 227, 227, 227 );
+    padding: 60px 0px 60px 210px;
+}
+	.notified{
+		overflow: hidden;
+		float: left;
+	}
+		.notified h3{
+			font-size: 22px;
+		    
+		    color: rgb( 34, 34, 34 );
+		    font-weight: bold;
+		    margin-bottom: 25px;
+		}
+		.notified p{
+			font-size: 16px;
+		    
+		    color: rgb( 132, 132, 132 );
+		    line-height: 1.625;
+		    text-align: left;
+		    width: 533px;
+	    	height: 91px;
+	    	margin-bottom: 31px;
+	    	margin-right: 145px;
+		}
+		.notified input{
+			font-size: 18px;
+		    padding: 0px 0px 0px 15px;
+		    color: rgb( 132, 132, 132 );
+		    line-height: 1;
+		    text-align: left;
+		    border-style: solid;
+		    border-width: 1px;
+		    border-color: rgb( 200, 200, 200 );
+		    border-radius: 15px;
+		    background-color: rgb( 255, 255, 255 );
+		    width: 449px;
+		    height: 59px;
+		    margin-bottom: 0px;
+		}
+	.third .marshall{
+		border-radius: 8px;
+		background-color: rgb( 197, 197, 197 ); 
+		width: 503px;
+		height: 309px;
+		margin: 0px 0px 0px 0px;
+	}
+.last{
+	padding: 60px 210px;
+	height: 466px;
+	background: #ffffff;
+}
+	.last p{
+		font-size: 18px;
+	    
+	    color: rgb( 132, 132, 132 );
+	    font-style: italic;
+	    line-height: 1.667;
+	    text-align: center;
+	    width: 830px;
+	    height: 47px;
+	    margin-left: 178px;
+	    margin-bottom: 25px;
+	}
+	.last h4{
+		font-size: 18px;
+	    
+	    color: rgb( 46, 46, 46 );
+	    font-weight: bold;
+		margin-bottom: 30px;
+		margin-left: 540px;
+	}
+	.last .people ul{
+		width: 1150px;
+		height: 50px;
+		margin-left: 11px;
+		margin-bottom: 60px;
+		clear: both;
+	}
+		.last .people ul li{
+			float: left;
+			margin-right: 5px;
+			width: 50px;
+			height: 50px;
+		}
+		.people ul li:last-child{
+			margin-right: 0px;
+		}
+		.people ul li:hover{
+			-webkit-filter: sepia(100%);
+    		filter: sepia(100%);
+		}
+		.people .overlay:hover{
+			background-image: url(overlay.jpg);
+		}
+	.last .lastlast{
+		clear: both;
+	}
+	.lastlast h3{
+		font-size: 24px;
+
+	    color: rgb( 0, 0, 0 );
+	    font-weight: bold;
+		margin-left: 471px;
+		margin-bottom: 20px;
+	}
+	.lastlast h5{
+		font-size: 16px;
+	    
+	    color: rgb( 132, 132, 132 );
+		margin-left: 348px;
+		margin-bottom: 25px;
+	}
+.media ul{
+	margin-left: 465px;
+	margin-bottom: 0px;
+}
+	.media ul li{
+		overflow: hidden;
+		float: left;
+		margin-right: 11px;
+		border-radius: 100%;
+	}
+	.media ul li:last-child{
+		margin-right: 11px;
+	}
+	.media .social  .twitter{
+		background-image: url(twitter.png);
+	}
+	.media .social li .twitter:hover{}
+	.media .social li .facebook:hover{}
+	.media .social li .p:hover{
+
+	}
+	.media .social li .google:hover{}
+	.media .social li .in:hover{}
+	.media .social li .youtube:hover{}
+footer{
+	padding: 60px 210px 53px 209px;
+	background-color: #e3e3e3;
+}
+.footer-content{
+
+}
+footer ul{
+	margin-left: 319px;
+}
+footer ul li{
+	overflow: hidden;
+	float: left;
+	margin-right: 37px;
+	font-size: 16px;
+	color: rgb( 132, 132, 132 );
+}
+footer ul li:last-child{
+	margin-right: 37px;
+}
+
+
+
+
